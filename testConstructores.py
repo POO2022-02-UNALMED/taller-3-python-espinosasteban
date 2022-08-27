@@ -4,7 +4,7 @@ from televisores.marca import Marca
 
 
 def testContador():
-    TV.setNumTV()
+    TV.setNumTV(0)
     marca = Marca("Semsung")
 
     tv1 = TV(marca, True)
